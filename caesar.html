@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🕵️‍♂️ Hacker Caesar Cipher</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🕶️ Caesar Cipher - Hacker Tool</h1>
+
+    <textarea id="inputText" placeholder="Enter your message..."></textarea>
+    <input type="number" id="shift" placeholder="Shift value (e.g. 3)" />
+
+    <div class="buttons">
+      <button onclick="encrypt()">Encrypt 🔐</button>
+      <button onclick="decrypt()">Decrypt 🔓</button>
+      <button onclick="clearText()">Clear 🧹</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Result will appear here..." readonly></textarea>
+  </div>
+
+  <script src="static/js/working.js"></script>
+</body>
+</html>
